@@ -17,5 +17,12 @@ class B extends A
     System.out.println("Method is overridden in Extendend class B");
   }
 }
-
+public class Main
+{
+  public static void main(String args[])
+  {
+    B obj = new B();//creating object
+    obj.meth();//calling method
+  }
+}
 
